@@ -76,6 +76,8 @@ var chartData = {
 
 chartData.series = await getChartData(url);
 
+
+printHighChart(chartData);
 })
 
 function fetchData(url){
