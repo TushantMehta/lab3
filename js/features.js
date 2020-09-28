@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
+    const url= "http://127.0.0.1:5501/data/data.json";
+
 Highcharts.chart('container', {
 
     title: {
