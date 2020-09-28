@@ -84,3 +84,8 @@ async function getChartData(url){
     let data = await fetchData(url);
     return data;
 }
+
+
+async function printHighChart(chartData){
+    var myChart = Highcharts.chart('conatiner', chartData)
+}
