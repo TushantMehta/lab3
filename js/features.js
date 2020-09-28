@@ -80,4 +80,7 @@ function fetchData(url){
     .then(res => res.json())
 }
 
-
+async function getChartData(url){
+    let data = await fetchData(url);
+    return data;
+}
