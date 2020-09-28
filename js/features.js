@@ -73,6 +73,9 @@ var chartData = {
 
 };
 
+
+chartData.series = await getChartData(url);
+
 })
 
 function fetchData(url){
