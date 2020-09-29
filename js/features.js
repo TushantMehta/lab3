@@ -2,19 +2,21 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     const url= "http://127.0.0.1:5501/data/data.json";
 
+    document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
+
 var chartData = {
 
     title: {
-        text: 'Solar Employment Growth by Sector, 2010-2016'
+        text: 'Car sales by year, 2010-2016'
     },
 
     subtitle: {
-        text: 'Source: thesolarfoundation.com'
+        text: 'internet'
     },
 
     yAxis: {
         title: {
-            text: 'Number of Employees'
+            text: 'Number of car sold'
         }
     },
 
