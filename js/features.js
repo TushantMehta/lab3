@@ -92,5 +92,5 @@ async function getChartData(url){
 
 
 async function printHighChart(chartData){
-    var myChart = Highcharts.chart('conatiner', chartData)
+    var myChart = Highcharts.chart('container', chartData)
 }
